@@ -14,10 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_h870ds.mk
+    $(LOCAL_DIR)/carbon_h870ds.mk
 
 	
 COMMON_LUNCH_CHOICES := \
-    havoc_h870ds-user \
-    havoc_h870ds-userdebug \
-    havoc_h870ds-eng
+    carbon_h870ds-user \
+    carbon_h870ds-userdebug \
+    carbon_h870ds-eng
