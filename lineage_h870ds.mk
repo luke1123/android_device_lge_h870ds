@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from h870ds device
 $(call inherit-product, device/lge/h870ds/device.mk)
@@ -31,7 +31,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH_OVERRIDE)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := h870ds
-PRODUCT_NAME := havoc_h870ds
+PRODUCT_NAME := lineage_h870ds
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-H870DS
 PRODUCT_MANUFACTURER := LGE
